@@ -2,12 +2,15 @@
 #define COMONFUNC_H
 #include <SDL.h>
 #include <SDL_image.h>
+#include <SDL_mixer.h>
+#include <SDL_ttf.h>
 #include <stdio.h>
 #include <string>
 #include <fstream>
 #include<iostream>
 #include<vector>
-
+#include<ctime>
+#include<stdlib.h>
 using namespace std;
 
 //Screen dimension constants
@@ -37,7 +40,7 @@ const int Map_BOTTOMRIGHT = 7;
 const int Map_BOTTOM = 8;
 const int Map_BOTTOMLEFT = 9;
 const int TOTAL_Pacman_SPRITES =5;
-
+const int TOTAL_GHOST = 4;
 using namespace std;
 
 /*
